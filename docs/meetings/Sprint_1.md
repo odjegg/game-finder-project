@@ -38,7 +38,7 @@ List the planned discussion items.
 
 ## 4. Discussion Summary
 
-![Discussion Evidence](evidence/sp1_ev_1.png)
+![Discussion Evidence](evidence/sp1_ev1.png)
 
 ## 5. Decisions Made
 
