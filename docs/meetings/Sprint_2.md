@@ -16,7 +16,8 @@ List all team members and mark **P** (present), **A** (absent), or **L** (late).
 | Leo     |                      | P          |
 | Yuvraj  |                      | P          |
 | Ollie   |                      | P          |
-![[meeting_2_photo.png]]
+
+![Meeting Evidence](evidence/meeting_2_photo.png)
 
 ---
 
@@ -38,15 +39,11 @@ List the planned discussion items.
 
 ## 4. Discussion Summary
 
-Concise notes capturing what was discussed, decisions made, alternatives considered.
-Ensure you show evidence (e.g., screenshots, links to resources) of the discussion.
+![Discussion Evidence 1](evidence/sp2_ev1.png)
+![Discussion Evidence 2](evidence/sp2_ev2.png)
+![Discussion Evidence 3](evidence/sp2_ev3.png)
 
-![[sp2_ev_1.png]]
-![[sp2_ev_2.png|423]]
-![[sp2_ev_3.png|170]]
 ## 5. Decisions Made
-
-Use bullet points for clarity. Include rationale where relevant.
 
 - **Decision:** 5 people do a user story each
   **Reasoning:** Rather than multiple people working on one or someone doing them then someone else adding to it we thought we would just do one each then look at them all together in the next meeting so we can work on it in our own time a little easier
@@ -56,8 +53,6 @@ Use bullet points for clarity. Include rationale where relevant.
 - **Reasoning:** Although we have separate official roles, it made sense to give work to everyone on the team for this sprint so everyone had something to do and to get a range of ideas by using everyone rather than just one or two people whilst everyone else had nothing to do
 
 ## 6. Actions and Responsibilities
-
-Clear, assigned tasks with deadlines.
 
 | Task         | Assigned To                         | Due Date | Status                               |
 | ------------ | ----------------------------------- | -------- | ------------------------------------ |
