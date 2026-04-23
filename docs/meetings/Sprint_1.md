@@ -17,7 +17,8 @@ List all team members and mark **P** (present), **A** (absent), or **L** (late).
 | Leo     |                      | P          |
 | Yuvraj  |                      | P          |
 | Ollie   |                      | P (online) |
-![[meeting_1_photo.png]]
+
+![[evidence/meeting_1_photo.png]]
 
 ---
 
@@ -38,7 +39,7 @@ List the planned discussion items.
 ## 4. Discussion Summary
 
 
-![[sp1_ev_1.png|362]]
+![[evidence/sp1_ev_1.png]]
 ## 5. Decisions Made
 
 Use bullet points for clarity. Include rationale where relevant.
