@@ -12,9 +12,9 @@ List all team members and mark **P** (present), **A** (absent), or **L** (late).
 | ------- | -------------------- | ---------- |
 | Paul    | Design               | P          |
 | Gabriel | Design               | P          |
-| Lacku   |                      | P          |
-| Leo     |                      | P          |
-| Yuvraj  |                      | P          |
+| Lacku   | Concept              | P          |
+| Leo     | Concept              | P          |
+| Yuvraj  | Concept              | P          |
 | Ollie   | Design               | P          |
 ![Meeting Evidence](evidence/meeting_4_photo.jpg)
 ---
@@ -34,7 +34,7 @@ List the planned discussion items.
 
 ## 4. Discussion Summary
 
-![Home Page Template](sp4_ev1.jpeg)![Game Page Template](sp4_ev2.jpeg)![Profile Page Template](sp4_ev3.jpeg)
+![Home Page Template](evidence/sp4_ev1.jpeg)![Game Page Template](evidence/sp4_ev2.jpeg)![Profile Page Template](evidence/sp4_ev3.jpeg)
 Decided that we needed mobile page designs, so we now need to convert these into vertical pages for phones.
 
 
