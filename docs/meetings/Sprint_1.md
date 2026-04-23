@@ -1,54 +1,44 @@
-# Group Meeting Log Template (Sprint 1)
+# Group Meeting Log Draft (Sprint 1) 26/03
 
-<!-- You should create one log per meeting. We expect to see at least 4 formal meetings. Create copies of this template for each meeting. -->
-<!-- Logs should be in valid markdown. You can find a guide here: https://www.markdownguide.org/basic-syntax/ -->
-
-> **Team Name / Group Number:**
+> **Team Name / Group Number:** Group 8
 
 ---
 
 ## 1. Attendance
 
 List all team members and mark **P** (present), **A** (absent), or **L** (late).
+[Excel Spreadsheet](evidence/Group_Meetings_Evidence.xlsx)
 
-| Name | Role (if applicable) | Attendance |
-| ---- | -------------------- | ---------- |
-|      |                      |            |
-|      |                      |            |
-|      |                      |            |
+| Name    | Role (if applicable) | Attendance |
+| ------- | -------------------- | ---------- |
+| Paul    |                      | P          |
+| Gabriel |                      | P          |
+| Lacku   |                      | P          |
+| Leo     |                      | P          |
+| Yuvraj  |                      | P          |
+| Ollie   |                      | P (online) |
+![[meeting_1_photo.png]]
 
 ---
 
 ## 2. Meeting Purpose
 
-<!-- A short sentence outlining why this meeting was held.
-
-Examples:
-
-- Refining user stories
-- Agreeing design architecture
-- Preparing for formative checkpoint
-- Reviewing risks and assumptions
-- Allocating tasks and deadlines -->
+This meeting was held to look over overall project requirements to assign roles and responsibilities to each member of the group. 
 
 ## 3. Agenda Items
 
 List the planned discussion items.
 
-1.
-2.
-3.
+1. Review overall requirements
+2. Create roles
+3. Assign roles
 
 ---
 
 ## 4. Discussion Summary
 
-Concise notes capturing what was discussed, decisions made, alternatives considered.
-Ensure you show evidence (e.g., screenshots, links to resources) of the discussion.
 
-![Discussion Evidence](evidence/screen_shot_example.png)
-[Link to random notes](evidence/some_random_notes.md)
-
+![[sp1_ev_1.png|362]]
 ## 5. Decisions Made
 
 Use bullet points for clarity. Include rationale where relevant.
@@ -70,6 +60,7 @@ Clear, assigned tasks with deadlines.
 
 ## 7. Next Meeting
 
-**Proposed Date & Time:**
-
-**Proposed Agenda Items:**
+**Proposed Date & Time:** 
+01/04/26
+**Proposed Agenda Items:** 
+Begin Sprint 2
