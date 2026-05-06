@@ -1,15 +1,13 @@
-# Group Meeting Log Template (Sprint 1)
+# Group Meeting Log Draft (Sprint 1) 26/03
 
-<!-- You should create one log per meeting. We expect to see at least 4 formal meetings. Create copies of this template for each meeting. -->
-<!-- Logs should be in valid markdown. You can find a guide here: https://www.markdownguide.org/basic-syntax/ -->
-
-> **Team Name / Group Number:**
+> **Team Name / Group Number:** Group 8
 
 Group 8 
 
 ## 1. Attendance
 
 List all team members and mark **P** (present), **A** (absent), or **L** (late).
+[Excel Spreadsheet](evidence/Group_Meetings_Evidence.xlsx)
 
 | Name | Role (if applicable) | Attendance |
 | ---- | -------------------- | ---------- |
@@ -27,15 +25,7 @@ List all team members and mark **P** (present), **A** (absent), or **L** (late).
 
 ## 2. Meeting Purpose
 
-<!-- A short sentence outlining why this meeting was held.
-
-Examples:
-
-- Refining user stories
-- Agreeing design architecture
-- Preparing for formative checkpoint
-- Reviewing risks and assumptions
-- Allocating tasks and deadlines -->
+This meeting was held to look over overall project requirements to assign roles and responsibilities to each member of the group. 
 
 - Initial team meeting to agree on roles and responsibilities
 - Discussed existing solutions and their problems to create innovative features.

@@ -1,4 +1,4 @@
-# Group Meeting Log Template (Sprint 3)
+# Group Meeting Log Draft (Sprint 3) 09/04
 
 <!-- You should create one log per meeting. We expect to see at least 4 formal meetings. Create copies of this template for each meeting. -->
 <!-- Logs should be in valid markdown. You can find a guide here: https://www.markdownguide.org/basic-syntax/ -->

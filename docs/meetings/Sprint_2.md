@@ -1,9 +1,6 @@
-# Group Meeting Log Template (Sprint 2)
+# Group Meeting Log Draft (Sprint 2) 01/04
 
-<!-- You should create one log per meeting. We expect to see at least 4 formal meetings. Create copies of this template for each meeting. -->
-<!-- Logs should be in valid markdown. You can find a guide here: https://www.markdownguide.org/basic-syntax/ -->
-
-> **Team Name / Group Number:**
+> **Team Name / Group Number:** Group 8
 
 ---
 
@@ -24,15 +21,9 @@ List all team members and mark **P** (present), **A** (absent), or **L** (late).
 
 ## 2. Meeting Purpose
 
-<!-- A short sentence outlining why this meeting was held.
-
-Examples:
-
-- Refining user stories
-- Agreeing design architecture
-- Preparing for formative checkpoint
-- Reviewing risks and assumptions
-- Allocating tasks and deadlines -->
+Understanding our individual roles and looking at the next steps:
+- Researching what the epic, user stories, personas and scenario involves
+- Splitting the workload between the team to work on each of these over the next week
 
 - Discussing tasks and their requirements: Epic, personas, user stories and scenario. Set deadline to a week from now.
 - Deciding task delegations/dividing workload between all of us.
@@ -71,7 +62,12 @@ Use bullet points for clarity. Include rationale where relevant.
 
 ## 6. Actions and Responsibilities
 
-Clear, assigned tasks with deadlines.
+| Task         | Assigned To                         | Due Date | Status                               |
+| ------------ | ----------------------------------- | -------- | ------------------------------------ |
+| Epics        | Paul & Gabriel                      | 08/04    | Not started / In progress / Complete |
+| User Stories | Paul, Gabriel, Yuvraj, Ollie, Lacku | 08/04    |                                      |
+| Personas     | Lacku, Leo                          | 08/04    |                                      |
+| Scenarios    | Lacku, Ollie                        | 08/04    |                                      |
 
 | Task         | Assigned To                         | Due Date | Status                               |
 | ------------ | ----------------------------------- | -------- | ------------------------------------ |
