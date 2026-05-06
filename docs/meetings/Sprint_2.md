@@ -64,13 +64,6 @@ Use bullet points for clarity. Include rationale where relevant.
 
 | Task         | Assigned To                         | Due Date | Status                               |
 | ------------ | ----------------------------------- | -------- | ------------------------------------ |
-| Epics        | Paul & Gabriel                      | 08/04    | Not started / In progress / Complete |
-| User Stories | Paul, Gabriel, Yuvraj, Ollie, Lacku | 08/04    |                                      |
-| Personas     | Lacku, Leo                          | 08/04    |                                      |
-| Scenarios    | Lacku, Ollie                        | 08/04    |                                      |
-
-| Task         | Assigned To                         | Due Date | Status                               |
-| ------------ | ----------------------------------- | -------- | ------------------------------------ |
 | Epics        | Paul & Gabriel                      | 08/04    | Complete                             |
 | User Stories | Paul, Gabriel, Yuvraj, Ollie, Lacku | 08/04    | Complete                             |
 | Personas     | Lacku, Leo                          | 08/04    | Complete                             |
