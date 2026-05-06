@@ -34,7 +34,9 @@ List the planned discussion items.
 
 ## 4. Discussion Summary
 
-![Home Page Template](evidence/sp4_ev1.jpeg)![Game Page Template](evidence/sp4_ev2.jpeg)![Profile Page Template](evidence/sp4_ev3.jpeg)
+![Home Page Template](evidence/sprint4/sp4_ev1.jpeg)
+![Game Page Template](evidence/sprint4/sp4_ev2.jpeg)
+![Profile Page Template](evidence/sprint4/sp4_ev3.jpeg)
 Decided that we needed mobile page designs, so we now need to convert these into vertical pages for phones.
 
 
@@ -42,8 +44,8 @@ Decided that we needed mobile page designs, so we now need to convert these into
 
 Use bullet points for clarity. Include rationale where relevant.
 
-- **Decision:**  Create vertical designs
-  **Reasoning:** GameFinder is intended to be a mobile application, so needs vertical designs to accommodate mobile devices
+- **Decision:**  Create vertical designs  
+  **Reasoning:** GameFinder is intended to be a mobile application, so needs vertical designs to accommodate mobile devices 
 - **Decision:**  
   **Reasoning:**
 
@@ -51,14 +53,14 @@ Use bullet points for clarity. Include rationale where relevant.
 
 Clear, assigned tasks with deadlines.
 
-| Task                                                     | Assigned To          | Due Date | Status                               |
-| -------------------------------------------------------- | -------------------- | -------- | ------------------------------------ |
+| Task| Assigned To | Due Date | Status|
+| --------------- | ---------- | -------- | ----------- |
 | Create vertical UI designs, refine designs, add features | Paul, Gabriel, Ollie |          | Not started / In progress / Complete |
 | Begin sprint 4                                           | Leo, Lacku, Yuvraj   |          |                                      |
 
 ## 7. Next Meeting
 
 **Proposed Date & Time:**
-
+N/A
 **Proposed Agenda Items:**
-Catch up with Sprint 4 progress
+N/A
