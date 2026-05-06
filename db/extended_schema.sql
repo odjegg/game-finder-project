@@ -1,11 +1,11 @@
 /* 
- Add your SQL code here to create the new tables for your feature. 
+ Add your SQL code here to create the new tables for your feature.
 */
 CREATE TABLE IF NOT EXISTS REVIEWS (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  user_id INT,
-  game_id INT,
-  rating INT,
+  id INTEGER PRIMARY KEY AUTO_INCREMENT,
+  user_id INTEGER,
+  game_id INTEGER,
+  rating INTEGER,
   comment TEXT,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   FOREIGN KEY (user_id) REFERENCES USERS (id),
@@ -40,14 +40,109 @@ CREATE TABLE IF NOT EXISTS ACHIVEMENTS (
   FOREIGN KEY (game_id) REFERENCES GAMES (id)
 
   CREATE TABLE IF NOT EXISTS PREVIOUSLY_PLAYED (
-  user_id INTEGER NOT NULL,
-  game_id INTEGER NOT NULL,
+  user_id INTEGER,
+  game_id INTEGER,
 
   PRIMARY KEY(user_id, game_id),
   UNIQUE (user_id, game_id)
   FOREIGN KEY (user_id) REFERENCES USERS (id),
   FOREIGN KEY (game_id) REFERENCES GAMES (id)
 );
+
+CREATE TABLE IF NOT EXISTS PREVIOUSLY_PLAYED (
+  user_id INTEGER,
+  game_id INTEGER,
+
+  PRIMARY KEY(user_id, game_id),
+  FOREIGN KEY (user_id) REFERENCES USERS (id),
+  FOREIGN KEY (game_id) REFERENCES GAMES (id)
+);
+
+CREATE TABLE IF NOT EXISTS REGIONS (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT UNIQUE NOT NULL
+);
+
+
+CREATE TABLE IF NOT EXISTS GAME_REGIONS (
+  game_id INTEGER,
+  region_id INTEGER,
+  is_available BOOLEAN NOT NULL
+  PRIMARY KEY (game_id, region_id),
+  FOREIGN KEY (game_id) REFERENCES GAMES (id),
+  FOREIGN KEY (region_id) REFERENCES REGIONS (id)
+);
+
+CREATE TABLE IF NOT EXISTS FRIENDS (
+  user_id INTEGER,
+  friend_id INTEGER,
+  -- stops duplicates
+  CHECK (user_id < friend_id),
+  PRIMARY KEY (user_id, friend_id),
+  FOREIGN KEY (user_id) REFERENCES USERS (id),
+  FOREIGN KEY (friend_id) REFERENCES USERS (id)
+);
+
+CREATE TABLE IF NOT EXISTS MESSAGES (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  sender_id INTEGER,
+  reciever_id INTEGER,
+  message TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (sender_id) REFERENCES USERS (id),
+  FOREIGN KEY (reciever_id) REFERENCES USERS (id)
+);
+
+CREATE TABLE IF NOT EXISTS TAGS (id INTEGER PRIMARY KEY, name TEXT NOT NULL UNIQUE);
+
+CREATE TABLE IF NOT EXISTS GAME_TAGS (
+  game_id INTEGER,
+  tag_id INTEGER,
+  PRIMARY KEY (game_id, tag_id),
+  FOREIGN KEY (game_id) REFERENCES GAMES (id),
+  FOREIGN KEY (tag_id) REFERENCES TAGS (id)
+);
+
+CREATE TABLE IF NOT EXISTS STREAMER_POPULARITY (
+  game_id INTEGER PRIMARY KEY,
+  streamer_count INTEGER NOT NULL,
+  FOREIGN KEY (game_id) REFERENCES GAMES (id)
+);
+
+CREATE TABLE IF NOT EXISTS STORES (id INTEGER PRIMARY KEY, name TEXT NOT NULL UNIQUE);
+
+CREATE TABLE IF NOT EXISTS GAME_STORES (
+  game_id INTEGER,
+  store_id INTEGER,
+  purchase_link TEXT,
+  PRIMARY KEY (game_id, store_id),
+  FOREIGN KEY (game_id) REFERENCES GAMES (id),
+  FOREIGN KEY (store_id) REFERENCES STORES (id)
+);
+
+CREATE TABLE IF NOT EXISTS TROPHIES (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  game_id INTEGER NOT NULL,
+  name TEXT NOT NULL,
+  description TEXT,
+  FOREIGN KEY (game_id) REFERENCES GAMES (id)
+);
+
+-- Addition of new atributes into the GAMES table
+
+ALTER TABLE GAMES
+ADD COLUMN age_restriction INTEGER;
+
+ALTER TABLE GAMES
+ADD COLUMN description TEXT;
+
+
+ALTER TABLE GAMES
+ADD COLUMN difficulty TEXT;
+
+
+ALTER TABLE GAMES
+ADD COLUMN average_length INTEGER;
 
 /*
   Add some sample data to the tables you create. 
