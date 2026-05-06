@@ -1,9 +1,6 @@
-# Group Meeting Log Template (Sprint 4)
+# Group Meeting Log Draft (Sprint 4) 23/04/26
 
-<!-- You should create one log per meeting. We expect to see at least 4 formal meetings. Create copies of this template for each meeting. -->
-<!-- Logs should be in valid markdown. You can find a guide here: https://www.markdownguide.org/basic-syntax/ -->
-
-> **Team Name / Group Number:**
+> **Team Name / Group Number:** Group 8
 
 ---
 
@@ -11,50 +8,44 @@
 
 List all team members and mark **P** (present), **A** (absent), or **L** (late).
 
-| Name | Role (if applicable) | Attendance |
-| ---- | -------------------- | ---------- |
-|      |                      |            |
-|      |                      |            |
-|      |                      |            |
-
+| Name    | Role (if applicable) | Attendance |
+| ------- | -------------------- | ---------- |
+| Paul    | Design               | P          |
+| Gabriel | Design               | P          |
+| Lacku   | Concept              | P          |
+| Leo     | Concept              | P          |
+| Yuvraj  | Concept              | P          |
+| Ollie   | Design               | P          |
+![Meeting Evidence](evidence/meeting_4_photo.jpg)
 ---
 
 ## 2. Meeting Purpose
 
-<!-- A short sentence outlining why this meeting was held.
-
-Examples:
-
-- Refining user stories
-- Agreeing design architecture
-- Preparing for formative checkpoint
-- Reviewing risks and assumptions
-- Allocating tasks and deadlines -->
-
+Review current UI designs for the application to receive feedback and brainstorm ideas.
 ## 3. Agenda Items
 
 List the planned discussion items.
 
-1.
-2.
-3.
+1. Show current designs to all group members
+2. Discuss changes to be made to group designs
+3. Discuss sprint 4
 
 ---
 
 ## 4. Discussion Summary
 
-Concise notes capturing what was discussed, decisions made, alternatives considered.
-Ensure you show evidence (e.g., screenshots, links to resources) of the discussion.
+![Home Page Template](evidence/sprint4/sp4_ev1.jpeg)
+![Game Page Template](evidence/sprint4/sp4_ev2.jpeg)
+![Profile Page Template](evidence/sprint4/sp4_ev3.jpeg)
+Decided that we needed mobile page designs, so we now need to convert these into vertical pages for phones.
 
-![Discussion Evidence](evidence/screen_shot_example.png)
-[Link to random notes](evidence/some_random_notes.md)
 
 ## 5. Decisions Made
 
 Use bullet points for clarity. Include rationale where relevant.
 
-- **Decision:**  
-  **Reasoning:**
+- **Decision:**  Create vertical designs  
+  **Reasoning:** GameFinder is intended to be a mobile application, so needs vertical designs to accommodate mobile devices 
 - **Decision:**  
   **Reasoning:**
 
@@ -62,14 +53,14 @@ Use bullet points for clarity. Include rationale where relevant.
 
 Clear, assigned tasks with deadlines.
 
-| Task | Assigned To | Due Date | Status                               |
-| ---- | ----------- | -------- | ------------------------------------ |
-|      |             |          | Not started / In progress / Complete |
-|      |             |          |                                      |
-|      |             |          |                                      |
+| Task| Assigned To | Due Date | Status|
+| --------------- | ---------- | -------- | ----------- |
+| Create vertical UI designs, refine designs, add features | Paul, Gabriel, Ollie |          | Not started / In progress / Complete |
+| Begin sprint 4                                           | Leo, Lacku, Yuvraj   |          |                                      |
 
 ## 7. Next Meeting
 
 **Proposed Date & Time:**
-
+N/A
 **Proposed Agenda Items:**
+N/A
